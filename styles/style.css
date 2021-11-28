@@ -1,0 +1,319 @@
+@font-face {
+    font-family: "vazir";
+    src: url('../fonts/vazir.eot') format('eot');
+    src: url('../fonts/vazir.ttf') format('truetype'),
+    url('../fonts/vazir.woff') format('woff'),
+    url('../fonts/vazir.woff2') format('woff2');
+}
+
+body,ul,li,h2,p{
+    direction: rtl;
+    font-family: "vazir";
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    
+}
+/*header*/
+
+header{
+    background-image: url('../image/header.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 600px;
+     position: relative;
+}
+
+header nav{
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+    height: 70px;
+}
+
+header nav ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+header nav ul li{
+    margin-left: 25px;
+    line-height: 4;
+    border-left: 1px solid rgb(209, 202, 202);
+    padding-left: 15px;
+}
+header nav ul li:nth-child(4){
+    border: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover{
+    color: rgb(224, 209, 149);
+}
+
+.header-content{
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 60px;
+    color: white;
+}
+.header-content p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+dive.service-title h2{
+    text-align: center;
+}
+
+/* services */
+
+#service{
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    padding: 100px 0;
+}
+
+#service .service-title{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgb(211, 208, 208);
+    padding-bottom: 50px;
+  
+}
+
+#service .service-title h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#service .service-title p{
+    margin-top: 20px;
+    width: 900px;
+    margin: auto;
+    font-size: 20px;
+}
+
+#service .service-title p span{
+    color: rgb(35, 158, 97);
+}
+
+#service .service-title{
+    color: rgb(95, 95, 95);
+}
+
+#service .service-content{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+#service .service-content .service-content-item{
+    
+    width: calc(33.33% - 20px);
+    margin-top: 30px;
+    text-align: center;
+}
+
+#service .service-content .service-content-item i{
+    font-size: 50px;
+    color: rgb(99, 99, 99);
+    padding-bottom: 30px;
+}
+
+#service .service-content .service-content-item h2{
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+#service .service-content .service-content-item a{
+    text-decoration: none;
+    background-color: rgb(48, 124, 92);
+    color: white;
+    border-radius: 5px;
+    padding: 7px 11px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+#service .service-content .service-content-item p{
+    padding-bottom: 15px;
+}
+
+#service .service-content .service-content-item a:hover{
+    background-color:rgb(32, 90, 65);
+    
+}
+
+/*blog*/
+
+#blog{
+    width: 100%;
+    padding: 100px 0;
+    
+}
+
+#blog .title{
+    text-align: center;
+}
+
+#blog .title h2{
+    font-size: 28px;
+
+}
+
+#blog .blog{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 70px auto;
+    justify-content: space-between;
+    
+}
+
+#blog .blog .blog-item{
+    flex: 0 0 calc(50% - 10px);
+    width: calc(50% - 10px);
+    text-align: center;
+    
+    margin-bottom: 20px;;
+}
+
+#blog .blog-item h3{
+    text-align: center;
+    font-size: 18px;
+}
+
+#blog .blog-item p{
+    padding-bottom: 50px;
+    width: 80%;
+    margin: auto;
+    color: rgb(102, 101, 101);
+}
+#blog .blog-item a img{
+    width: 500px;
+}
+
+/*massage*/
+
+#massage{
+    background-image: url(../image/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#massage .overlay{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+#massage .overlay p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 200px auto;
+    width: 900px;
+}
+
+/* footer */ 
+
+
+footer{
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+    padding: 80px 0;
+} 
+
+footer .footer-title{
+    width: 100%;
+    text-align: center;
+}
+
+footer .footer-title h2{
+    color: rgb(226, 204, 175);
+}
+
+footer .footer-title p{
+    color: rgb(226, 204, 175);
+    margin-top: 40px;
+}
+
+footer .footer-social ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    list-style: none;
+    width: 100%;
+    
+}
+
+footer .footer-social{
+    padding-bottom: 50px;
+}
+
+footer .footer-social ul li a i{
+    font-size: 35px;
+    color: white;
+    padding-left: 50px;
+    
+}
+
+
+footer .footer-social ul li a:hover i#i1{
+    color: rgb(70, 140, 180);
+    transition: all 0.5s ease-in-out;
+}
+
+footer .footer-social ul li a:hover i#i2{
+    color: rgb(177, 55, 171);
+    transition: all 0.5s ease-in-out;
+}
+
+footer .footer-social ul li a:hover i#i3{
+    color: rgb(56, 91, 207);
+    transition: all 0.5s ease-in-out;
+}
+
+footer .footer-social ul li a:hover i#i4{
+    color: rgb(170, 35, 35);
+    transition: all 0.5s ease-in-out;
+}
+
+footer .copy-right{
+    color: white;
+    width: 100%;
+    padding: 30px 0 0;
+    text-align: center;
+    border-top: 1px solid rgb(61, 60, 60);
+    ;
+}
+
+/* THE END */
